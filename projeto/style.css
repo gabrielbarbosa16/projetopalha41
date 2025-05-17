@@ -115,7 +115,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: auto;
     margin-top: 25px;
     align-items: center;
     height: 650px;
@@ -124,4 +123,36 @@ body {
     background-size: cover;
     background-position: center;
 
+}
+
+.quadrado{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    height:400px;
+    background-color: #f9b025;
+    justify-content:right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    align-items:center;
+    letter-spacing: 1px;
+}
+
+
+.text-box{
+    width: 260px;
+    height:200px;
+    align-items:center;
+    margin-top:40px;
+    margin-right: 20px;
+    font-family: tropika;
+    
+}
+
+.imagem1{
+    width: 280px;
+    height:401px;
+    background: #864f18;
+    margin-top: 5px;
 }
