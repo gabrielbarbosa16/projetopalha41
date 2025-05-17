@@ -128,7 +128,7 @@ body {
 .quadrado{
     display:flex;
     flex-direction: row;
-    width:1095px;
+    width:1370px;
     height:569px;
     background-color: #f9b025;
     justify-content:right;
