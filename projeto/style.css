@@ -128,8 +128,8 @@ body {
 .quadrado{
     display:flex;
     flex-direction: row;
-    width:90%;
-    height:400px;
+    width:1095px;
+    height:569px;
     background-color: #f9b025;
     justify-content:right;
     margin-left: auto;
@@ -141,18 +141,27 @@ body {
 
 
 .text-box{
-    width: 260px;
+    width: 500px;
     height:200px;
     align-items:center;
-    margin-top:40px;
-    margin-right: 20px;
-    font-family: tropika;
-    
+    margin-top: 00px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: tropika;    
+}
+
+.text-box h1{
+    color:#7B4518;
+    font-family: tropika;   
+}
+
+.text-box p{
+    font-size: 1.2rem;
+    color: white;
 }
 
 .imagem1{
-    width: 280px;
-    height:401px;
-    background: #864f18;
+    width:488px;
+    height:569px;
     margin-top: 5px;
 }
