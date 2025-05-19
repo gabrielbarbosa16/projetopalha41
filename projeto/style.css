@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    font-family: tropika;
+    font-family:'tropika';
     background: #f9b025;
     height: 15vh;
     font-size: 1.5rem;
@@ -115,7 +115,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: auto;
     margin-top: 25px;
     align-items: center;
     height: 650px;
@@ -125,3 +124,89 @@ body {
     background-position: center;
 
 }
+
+.quadrado{
+    display:flex;
+    flex-direction: row;
+    width:1095px;
+    height:569px;
+    background-color: #f9b025;
+    justify-content:right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    align-items:center;
+    letter-spacing: 1px;
+}
+
+
+.text-box{
+    width: 500px;
+    height:200px;
+    align-items:center;
+    margin-top: 00px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: tropika;    
+}
+
+.text-box h1{
+    color:#7B4518;
+    font-family: tropika;   
+}
+
+.text-box p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.imagem1{
+    width:488px;
+    height:569px;
+    margin-top: 5px;
+}
+
+.two-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Fone{
+    idth:1095px;
+    height:569px;
+}
+
+.Sone{
+    idth:1095px;
+    height:569px;
+}
+
+.Fbotão a{
+    opacity: 1;
+}
+
+.botão{
+    width: 200px;
+    height: 55px;
+    margin-top:30px;
+    margin-left: 575px;
+    background-color: #f9b025;
+    border-color: #7B4518;
+    font-family: tropika;
+    color: #7B4518;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7B4518;
+    color: #f9b025;
+    border-color:#f9b025;
+    opacity:unset;
+}
+
+
