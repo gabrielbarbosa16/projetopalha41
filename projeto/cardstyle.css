@@ -110,10 +110,25 @@ body {
     background-color: #F8F7F3;
 }
 
+main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 88rem;
+    margin-top: 2rem;
+    font-family: tropika;
+    font-size: 0.88rem;
+    
+    color: #864f18;
+}
+
 .card-palha{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
+    align-items: center;
 }
 
 .imgpalha{
@@ -122,7 +137,11 @@ body {
     border-radius: 10px;
 }
 
-.imgpalha:hover{
+.descr{
+    letter-spacing: 1px;
+}
+
+.card-palha:hover{
     transform: scale(1.1);
     opacity: 1;
 }
@@ -130,5 +149,7 @@ body {
 .nomepalha{
     color:#f9b025;
     margin-top: 1rem;
+    font-size: 1.2rem;
 }
+
 

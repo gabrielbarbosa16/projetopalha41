@@ -136,7 +136,7 @@ body {
     margin-right: auto;
     margin-top: 5px;
     align-items:center;
-    letter-spacing: 1px;
+    
 }
 
 
@@ -152,12 +152,14 @@ body {
 
 .text-box h1{
     color:#7B4518;
-    font-family: tropika;   
+    font-family: tropika;
+       
 }
 
 .text-box p{
     font-size: 1.2rem;
     color: white;
+    letter-spacing: 1px;
 }
 
 .imagem1{
