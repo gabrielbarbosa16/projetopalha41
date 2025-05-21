@@ -110,105 +110,46 @@ body {
     background-color: #F8F7F3;
 }
 
-.imagempalha {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    margin-top: 25px;
-    align-items: center;
-    height: 650px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.quadrado{
-    display:flex;
-    flex-direction: row;
-    width:1095px;
-    height:569px;
-    background-color: #f9b025;
-    justify-content:right;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    align-items:center;
-    
-}
-
-
-.text-box{
-    width: 500px;
-    height:200px;
-    align-items:center;
-    margin-top: 00px;
-    margin-right: 150px;
-    margin-left: 100px;
-    font-family: tropika;    
-}
-
-.text-box h1{
-    color:#7B4518;
+main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 88rem;
+    margin-top: 2rem;
     font-family: tropika;
-       
+    font-size: 0.88rem;
+    
+    color: #864f18;
 }
 
-.text-box p{
-    font-size: 1.2rem;
-    color: white;
+.card-palha{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.imgpalha{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.descr{
     letter-spacing: 1px;
 }
 
-.imagem1{
-    width:488px;
-    height:569px;
-    margin-top: 5px;
-}
-
-.two-images{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top:30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Fone{
-    idth:1095px;
-    height:569px;
-}
-
-.Sone{
-    idth:1095px;
-    height:569px;
-}
-
-.Fbotão a{
+.card-palha:hover{
+    transform: scale(1.1);
     opacity: 1;
 }
 
-.botão{
-    width: 200px;
-    height: 55px;
-    margin-top:30px;
-    margin-left: 575px;
-    background-color: #f9b025;
-    border-color: #7B4518;
-    font-family: tropika;
-    color: #7B4518;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #7B4518;
-    color: #f9b025;
-    border-color:#f9b025;
-    opacity:unset;
+.nomepalha{
+    color:#f9b025;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 
