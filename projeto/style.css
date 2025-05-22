@@ -228,4 +228,14 @@ button:hover{
     opacity:unset;
 }
 
+footer{
+    background-color:#F7B100;
+    color: white;
+    padding: 20px 0;
+    font-family:'segoe Ui ' sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #7B4518;
+}
+
 
