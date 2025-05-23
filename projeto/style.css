@@ -213,25 +213,30 @@ button:hover{
 
 .nome{
     font-family: tropika;
-    font-size: 20px;
+    font-size: 55px;
     text-align: center;
+    margin-top: 80;
+    margin-bottom: 50;
 }
 .nome2{
-    font-family: tropika;
-    font-size: 20px;
+    font-family:'segoe Ui ' sans-serif;
+    font-size: 27px;
     text-align: center;
+    margin-bottom: 30;
 }
 
 .nome3{
     font-family: tropika;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 45;
 }
 
 .nome4{
-    font-family: tropika;
-    font-size: 18px;
+    font-family:'segoe Ui ' sans-serif;
+    font-size: 20px;
     text-align: center;
+    margin-bottom: 48;
 }
 
 footer{
