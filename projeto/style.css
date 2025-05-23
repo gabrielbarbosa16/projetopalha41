@@ -211,6 +211,29 @@ button:hover{
     opacity:unset;
 }
 
+.nome{
+    font-family: tropika;
+    font-size: 20px;
+    text-align: center;
+}
+.nome2{
+    font-family: tropika;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nome3{
+    font-family: tropika;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nome4{
+    font-family: tropika;
+    font-size: 18px;
+    text-align: center;
+}
+
 footer{
     background-color:#F7B100;
     color: white;
