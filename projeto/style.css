@@ -211,6 +211,34 @@ button:hover{
     opacity:unset;
 }
 
+.nome{
+    font-family: tropika;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 80;
+    margin-bottom: 50;
+}
+.nome2{
+    font-family:'segoe Ui ' sans-serif;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 30;
+}
+
+.nome3{
+    font-family: tropika;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 45;
+}
+
+.nome4{
+    font-family:'segoe Ui ' sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 48;
+}
+
 footer{
     background-color:#F7B100;
     color: white;
