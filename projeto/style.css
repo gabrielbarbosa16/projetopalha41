@@ -36,6 +36,7 @@ nav{
 .nav-list{
     list-style: none;
     display: flex;
+    margin-left: 6vh;
 }
 
 .nav-list li{
