@@ -228,7 +228,6 @@ button:hover{
     opacity:unset;
 }
 
-<<<<<<< HEAD
 footer{
     background-color:#F7B100;
     color: white;
@@ -258,15 +257,14 @@ footer p {
 }
 
 .instagram-icon {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   transition: transform 0.3s ease;
   vertical-align: middle;
 }
 
 .instagram-icon:hover {
   transform: scale(1.1);
->>>>>>> 5f19b248daca7bdeaf11521f6faa9d5bc7203b96
 }
 
 
