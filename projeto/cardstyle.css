@@ -162,3 +162,17 @@ footer{
     color: #7B4518;
 }
 
+@media screen and (max-width: 999px) {
+
+     main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card-palha:hover{
+        transform: none;
+    }
+
+}
+
