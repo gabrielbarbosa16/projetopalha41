@@ -24,6 +24,22 @@ a:hover{
     margin-top: 7px;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%; 
+  z-index: 1000;
+}
+
+body {
+    padding-top: 80px;
+}
+
+main {
+    padding-top: 60px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
