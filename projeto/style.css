@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-@font-face { font-family: tropika; src: url('tropika-island-int.otf');}  
+
+
+@font-face { 
+    font-family: tropika; 
+    src: url('tropika-island-int.otf');}  
 
 a {
     color:#864f18;
@@ -23,7 +27,7 @@ a:hover{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     font-family:'tropika';
     background: #f9b025;
     height: 15vh;
@@ -33,6 +37,7 @@ nav{
 .nav-list{
     list-style: none;
     display: flex;
+    margin-left: 6vh;
 }
 
 .nav-list li{
@@ -118,7 +123,7 @@ body {
     width: 90%;
     margin-top: 25px;
     align-items: center;
-    height: 650px;
+    height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,8 +134,8 @@ body {
 .quadrado{
     display:flex;
     flex-direction: row;
-    width: 1095px;
-    height:569px;
+    width: 81%;
+    height:80vh;
     background-color: #f9b025;
     justify-content:right;
     margin-left: auto;
@@ -142,12 +147,12 @@ body {
 
 
 .text-box{
-    width: 500px;
-    height:200px;
+    width: 65vh;
+    height:30vh;
     align-items:center;
     margin-top: 00px;
-    margin-right: 150px;
-    margin-left: 100px;
+    margin-right: 28vh;
+    margin-left: 10vh;
     font-family: tropika;    
 }
 
@@ -164,8 +169,8 @@ body {
 }
 
 .imagem1{
-    width:488px;
-    height:569px;
+    width:63vh;
+    height:80vh;
     margin-top: 5px;
 }
 
@@ -179,13 +184,13 @@ body {
 }
 
 .Fone{
-    idth:1095px;
-    height:569px;
+    width:65vh;
+    height:79vh;
 }
 
 .Sone{
-    idth:1095px;
-    height:569px;
+    width:65vh;
+    height:78.8vh;
 }
 
 .Fbotão a{
@@ -193,10 +198,11 @@ body {
 }
 
 .botão{
-    width: 200px;
-    height: 55px;
+    width: 27vh;
+    height: 8vh;
     margin-top:30px;
-    margin-left: 575px;
+    margin-left: 44%;
+    margin-bottom: 10px;
     background-color: #f9b025;
     border-color: #7B4518;
     font-family: tropika;
@@ -243,7 +249,7 @@ button:hover{
 footer{
     background-color:#F7B100;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     font-family:'segoe Ui ' sans-serif;
     text-align: center;
     font-size: 16px;

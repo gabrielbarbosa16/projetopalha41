@@ -116,11 +116,11 @@ main{
     gap: 10px;
     margin-left: 2rem;
     margin-right: 2rem;
-    max-width: 88rem;
+   
     margin-top: 2rem;
     font-family: tropika;
     font-size: 0.88rem;
-    
+    margin-bottom: 26.5vh;
     color: #864f18;
 }
 
@@ -152,4 +152,27 @@ main{
     font-size: 1.2rem;
 }
 
+footer{
+    background-color:#F7B100;
+    color: white;
+    padding: 20px;
+    font-family:'segoe Ui ' sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #7B4518;
+}
+
+@media screen and (max-width: 999px) {
+
+     main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card-palha:hover{
+        transform: none;
+    }
+
+}
 
