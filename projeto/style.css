@@ -19,6 +19,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
+  align-items: center;
 }
 
 
@@ -49,6 +50,7 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
+
 }
 
 .nav-list li {
