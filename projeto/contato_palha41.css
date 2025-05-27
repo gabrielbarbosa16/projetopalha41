@@ -182,3 +182,36 @@ footer {
     }
 }
 
+footer {
+  background-color: #f9b025;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+footer p {
+  margin: 10px 0;
+  color: #7B4518;
+}
+
+.instagram-link {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.instagram-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.instagram-icon:hover {
+  transform: scale(1.1);
+}
+
+.palha41paragrafo {
+    margin-top: 15px;
+}
+
