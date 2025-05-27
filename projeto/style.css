@@ -1,34 +1,30 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fonte custom */
 @font-face {
     font-family: tropika;
     src: url('tropika-island-int.otf');
 }
 
-/* Links */
 a {
     color: #864f18;
     text-decoration: none;
     transition: 0.3s;
 }
+
 a:hover {
     opacity: 0.7;
 }
 
-/* Logo */
 .logo {
     margin-top: 7px;
     max-width: 290px;
     height: auto;
 }
 
-/* Nav */
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,13 +60,11 @@ nav {
     transition: 0.3s;
 }
 
-/* Main background */
 body {
     background-color: #F8F7F3;
     font-family: 'tropika', sans-serif;
 }
 
-/* Imagem principal */
 .image-container {
     width: 90%;
     margin: 25px auto 0;
@@ -83,7 +77,6 @@ body {
     display: inline-block;
 }
 
-/* Quadrado amarelo com texto e imagem */
 .quadrado {
     display: flex;
     justify-content: space-between;
@@ -120,7 +113,7 @@ body {
     border-radius: 8px;
 }
 
-/* Duas imagens lado a lado */
+
 .two-images {
     display: flex;
     justify-content: space-around;
@@ -135,7 +128,7 @@ body {
     border-radius: 8px;
 }
 
-/* Botão centralizado */
+
 .button-container {
     width: 100%;
     text-align: center;
@@ -159,7 +152,6 @@ body {
     color: #f9b025;
 }
 
-/* Slider */
 .container {
     position: relative;
     width: 90vw;
@@ -189,13 +181,11 @@ body {
     border-radius: 8px;
 }
 
-/* Imagens do slider */
 #slider-img-1 { background-image: url(imagens41/imagem20.jpg); }
 #slider-img-2 { background-image: url(imagens41/imagem21.jpg); }
 #slider-img-3 { background-image: url(imagens41/imagem22.jpg); }
 #slider-img-4 { background-image: url(imagens41/imagem23.jpg); }
 
-/* Slider buttons */
 .button-holder {
     position: absolute;
     left: 50%;
@@ -220,7 +210,6 @@ body {
     box-shadow: 0 0 7px 4px rgba(0, 255, 255, 0.6);
 }
 
-/* Animação slider */
 @keyframes slider {
     0% { transform: translateX(0); }
     25% { transform: translateX(-100%); }
@@ -229,7 +218,6 @@ body {
     100% { transform: translateX(0); }
 }
 
-/* Footer */
 footer {
     background-color: #f9b025;
     padding: 20px 1rem;
@@ -263,9 +251,6 @@ footer p {
     margin-top: 15px;
 }
 
-/* MOBILE RESPONSIVE */
-
-/* Menu mobile */
 @media (max-width: 999px) {
     .nav-list {
         position: fixed;
@@ -323,7 +308,6 @@ footer p {
         animation: navLinkFade 0.5s ease forwards;
     }
 
-    /* Quadrado vira coluna */
     .quadrado {
         flex-direction: column;
         height: auto;
@@ -342,7 +326,6 @@ footer p {
         height: auto;
     }
 
-    /* Duas imagens ficam coluna */
     .two-images {
         flex-direction: column;
         width: 90%;
@@ -354,7 +337,6 @@ footer p {
         height: auto;
     }
 
-    /* Botão responsivo */
     .botao {
         width: 80%;
         font-size: 1.2rem;
@@ -362,7 +344,6 @@ footer p {
         display: block;
     }
 
-    /* Slider menor em mobile */
     .container .wrapper {
         height: 40vh;
     }
@@ -372,7 +353,6 @@ footer p {
     }
 }
 
-/* Telas muito pequenas */
 @media (max-width: 480px) {
     nav {
         font-size: 1.2rem;
