@@ -67,7 +67,6 @@ nav {
     transition: 0.3s;
 }
 
-/* Formulário */
 .form-container {
     max-width: 600px;
     margin: 40px auto;
@@ -114,7 +113,6 @@ button:hover {
     background-color: #f1a216;
 }
 
-/* WhatsApp */
 .whatsapp-button {
     display: block;
     text-align: center;
@@ -127,7 +125,6 @@ button:hover {
     font-weight: bold;
 }
 
-/* Footer */
 footer {
     background-color: #F7B100;
     color: #7B4518;
@@ -137,7 +134,6 @@ footer {
     font-size: 16px;
 }
 
-/* Responsivo */
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
